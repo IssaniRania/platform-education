@@ -101,6 +101,7 @@ class SignUpActivity : AppCompatActivity() {
             editor.putString("Classe$userCount", classe)
             editor.putString("Password$userCount", psd)
             editor.putInt("Etat", 0)
+            editor.putInt("userCount", newUserCount)
 
             editor.apply()
 
